@@ -12,7 +12,7 @@ def hello_world():  # put application's code here
 @app.route('/greet/<name>')
 def greet(name=""):
     return f"Hello {name}"
-Test
+
 
 @app.route('/f')
 @app.route('/f/<celsius>')
